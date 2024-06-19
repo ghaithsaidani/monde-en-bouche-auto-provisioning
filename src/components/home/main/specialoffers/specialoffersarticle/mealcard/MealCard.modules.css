@@ -1,0 +1,94 @@
+/*border: 16px solid;
+
+border-image-source: linear-gradient(180deg, rgba(245, 71, 72, 0) 57.72%, #FDC55E 112.46%);*/
+.meal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.meal-card .card-header {
+  position: relative;
+  border-radius: 50%;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+.meal-card .card-header .card-img {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.meal-card .card-header .card-img img {
+  transform: translateY(-50px);
+}
+.meal-card .card-header .card-img p {
+  position: absolute;
+  color: #FFFFFF;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  background: #FDC55E;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  transform: translateY(-150px) translateX(130px);
+}
+.meal-card .card-header::after {
+  content: "";
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: -15px;
+  left: -15px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(0deg, rgba(253, 197, 94, 0) 57.72%, rgba(245, 71, 72, 0.5) 112.46%);
+}
+.meal-card .card-content {
+  height: 370px;
+  width: 310px;
+  z-index: -1;
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0) -31.53%, rgba(245, 71, 72, 0.3) 400%);
+  border-radius: 20px;
+  margin-top: -100px;
+  padding: 7rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.meal-card .card-content .content-headline {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  gap: 1em;
+}
+.meal-card .card-content .content-headline .rating {
+  display: flex;
+  gap: 0.5em;
+}
+.meal-card .card-content .content-headline .rating svg {
+  color: #FFB800;
+  font-size: 1.5em;
+}
+.meal-card .card-content .content-headline .rating p {
+  font-family: "Sofia Pro Medium";
+  font-size: 1.1em;
+}
+.meal-card .card-content h5 {
+  font-family: "Sofia Pro Semi Bold";
+  color: #F54748;
+  text-align: center;
+}
+.meal-card .card-content > p {
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.meal-card > button {
+  margin-top: -30px;
+  border-radius: 2rem;
+}/*# sourceMappingURL=MealCard.modules.css.map */

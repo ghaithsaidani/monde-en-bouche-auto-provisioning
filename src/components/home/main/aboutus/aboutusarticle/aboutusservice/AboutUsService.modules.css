@@ -1,0 +1,8 @@
+.about-us-service {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.about-us-service img {
+  width: 2rem;
+}/*# sourceMappingURL=AboutUsService.modules.css.map */

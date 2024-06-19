@@ -1,0 +1,50 @@
+#hero article .description {
+  padding: 0 2.5rem;
+}
+#hero article .description .paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#hero article .description .paragraph h2 {
+  margin-top: 5rem;
+}
+#hero article .description .paragraph h2 span:first-child {
+  color: #F54748;
+}
+#hero article .description .paragraph h2 span:last-child {
+  color: #FDC55E;
+}
+
+@media screen and (min-width: 650px) {
+  #hero article {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    align-items: center;
+  }
+  #hero article > img {
+    width: 44%;
+    place-self: end;
+  }
+  #hero article .description {
+    margin: 2rem 0 0 3rem;
+  }
+  #hero article .description .paragraph > img {
+    width: 50%;
+    margin-left: 19rem;
+  }
+  #hero article .description .paragraph p {
+    padding: 0 20rem 0 0;
+    margin-top: 2rem;
+  }
+}
+/*
+@media screen and (min-width: 1600px) {
+  #hero {
+    article {
+
+
+    }
+  }
+}*//*# sourceMappingURL=Hero.modules.css.map */

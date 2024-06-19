@@ -1,0 +1,16 @@
+.country-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 0.5rem;
+  width: 7rem;
+  padding: 0.3rem 0;
+  border: 1px solid;
+  border-radius: 1em;
+  opacity: 0.6;
+}
+.country-chip img {
+  width: 1.5rem;
+}/*# sourceMappingURL=CountryChip.modules.css.map */

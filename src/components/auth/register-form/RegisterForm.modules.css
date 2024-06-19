@@ -1,0 +1,98 @@
+.register-form {
+  padding: 0 15rem;
+}
+.register-form .go-to {
+  display: flex;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.register-form .go-to .go-back-home {
+  display: flex;
+  align-items: center;
+  color: #F54748;
+  gap: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.register-form .go-to .go-back-home a {
+  position: relative;
+}
+.register-form .go-to .go-back-home a:before {
+  content: "";
+  position: absolute;
+  height: 0.1rem;
+  width: 0;
+  bottom: 0;
+  border-radius: 2rem;
+  background: #F54748;
+}
+.register-form .go-to .go-back-home a:hover:before {
+  width: 100%;
+  animation: links 0.7s;
+}
+@keyframes links {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.register-form .go-to .go-to-login {
+  margin: 0 0 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.register-form .go-to .go-to-login a p {
+  display: flex;
+  align-items: center;
+  color: #F54748;
+  gap: 0.5rem;
+}
+.register-form .go-to .go-to-login a p svg {
+  font-size: 1.2rem;
+}
+.register-form .head {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin: 0 0 1rem;
+}
+.register-form .head h2 {
+  font-size: 3rem;
+  color: #42505C;
+}
+.register-form .head p span {
+  color: #F54748;
+}
+.register-form form .start-inputs, .register-form form .passwords {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 3rem;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+}
+.register-form form .start-inputs {
+  border-top: 2px dashed rgba(0, 0, 0, 0.2);
+}
+.register-form form .start-inputs .input-field:has(input[id=email]), .register-form form .start-inputs .input-field:has(input[type=tel]) {
+  grid-column: 1/3;
+}
+.register-form form .passwords {
+  margin: 0 0 2rem;
+}
+.register-form form .passwords .input-field:has(input[id=password]) {
+  grid-column: 1;
+}
+.register-form form .form-submission {
+  display: flex;
+  justify-content: space-between;
+}
+.register-form form .form-submission p span {
+  color: #F54748;
+}
+.register-form form .form-submission button {
+  width: 11rem;
+  justify-content: space-between;
+}/*# sourceMappingURL=RegisterForm.modules.css.map */

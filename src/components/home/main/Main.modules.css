@@ -1,0 +1,10 @@
+main section {
+  padding: 120px 0 50px;
+}
+
+@media screen and (min-width: 650px) {
+  main section {
+    padding: 2rem 0;
+    height: 100vh;
+  }
+}/*# sourceMappingURL=Main.modules.css.map */

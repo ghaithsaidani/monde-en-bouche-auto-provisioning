@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("../fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("../fonts/SofiaProBold.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("../fonts/SofiaProLight.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("../fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Regular";
+  src: url("../fonts/SofiaProRegular.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Semi Bold";
+  src: url("../fonts/SofiaProSemiBold.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin sans";
+}
+
+p {
+  font-family: "Fira sans";
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #F54748;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F54748;
+}
+
+button {
+  font-family: "Karla";
+}/*# sourceMappingURL=style.css.map */

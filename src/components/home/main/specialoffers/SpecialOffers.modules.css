@@ -1,0 +1,30 @@
+#special-offers article .description {
+  padding: 0 2.5rem;
+}
+#special-offers article .description h2 {
+  text-align: center;
+}
+#special-offers article .description h2 span {
+  color: #F54748;
+}
+#special-offers article .description p {
+  text-align: center;
+}
+#special-offers article .meal-card {
+  margin: 5rem auto 0 auto;
+}
+
+@media screen and (min-width: 650px) {
+  #special-offers article .description h2 {
+    font-size: 3.5rem;
+  }
+  #special-offers article .description p {
+    width: 55%;
+    margin: 2rem auto;
+  }
+  #special-offers article .cards {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+}/*# sourceMappingURL=SpecialOffers.modules.css.map */
