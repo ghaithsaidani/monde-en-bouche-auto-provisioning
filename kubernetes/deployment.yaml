@@ -1,0 +1,20 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: le-monde-en-bouche-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: le-monde-en-bouche
+  template:
+    metadata:
+      labels:
+        app: le-monde-en-bouche
+    spec:
+      containers:
+      - name: le-monde-en-bouche
+        image: ghaithsaidani/le-monde-en-bouche-image:initial
+        ports:
+        - containerPort: 80
+      
