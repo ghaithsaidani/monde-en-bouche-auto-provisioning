@@ -15,9 +15,9 @@ export const HeroArticle = () => {
                     sx={{marginTop: 40}}
                 />
                 <div className={"paragraph"}>
-                    <Typography variant="h2"><span>Embarquez</span> Pour un voyage <span>Culinaire</span></Typography>
+                    <Typography variant="h2"><span>Entamez</span> une odyssée <span>Gourmande</span></Typography>
                     <img src={HeroLine} alt={"Hero Line"}/>
-                    <Typography variant={"body1"}>Explorer les saveurs du monde en un clin d'œil avec "Le Monde en
+                    <Typography variant={"body1"}>Découvrez les saveurs du monde en un clin d'œil avec "Le Monde en
                         Bouche" ! Préparez-vous à un voyage gustatif inoubliable, sans quitter votre pays !</Typography>
                 </div>
             </div>
